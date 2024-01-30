@@ -1,13 +1,10 @@
 <template>
-    <MainLayout>
-        <h1>Index</h1>
-        <div>The message is {{ message }}</div>
-    </MainLayout>
+  <h1>Index</h1>
+  <div>The message is {{ message }}</div>
 </template>
 
 <script setup>
-import MainLayout from "../../Layouts/MainLayout.vue";
 defineProps({
-    message: String,
-});
+  message: String,
+})
 </script>
